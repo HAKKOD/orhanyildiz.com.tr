@@ -64,6 +64,5 @@ if (sessionStorage.getItem("tsmURL") != null && sessionStorage.getItem("tsmSekme
     sessionStorage.removeItem("tsmURL");
     sessionStorage.removeItem("tsmSekmeBasligi");
 } else {
-    // sayfayiAc(localStorage.getItem("tsmAnasayfaURL"), localStorage.getItem("tsmAnasayfaSekmeBasligi"));
-    sayfayiAc("/sayfalar/haberler/", "Haberler");
+    sayfayiAc(localStorage.getItem("tsmAnasayfaURL"), localStorage.getItem("tsmAnasayfaSekmeBasligi"));
 }
