@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yüksekova'nın Eğitim Yıldız'ı</title>
+</head>
+
+<body>
+    <script>
+        if (typeof mevcutSayfa === 'undefined') {
+            sessionStorage.setItem("tsmURL", window.location.pathname);
+            sessionStorage.setItem("tsmSekmeBasligi", document.title);
+            window.location.href = "/";
+        }
+    </script>
+    <div id="tsm-html-kodlari">
+        <div class="bg-white p-4 text-break mb-3 shadow-sm">
+            <p>
+                Kaynak:&nbsp;<a class="fst-italic"
+                    href="https://www.iha.com.tr/video-yuksekovanin-egitim-yildizi-45500/"
+                    target="_blank">
+                    https://www.iha.com.tr/video-yuksekovanin-egitim-yildizi-45500/
+                </a>
+            </p>
+            <h1>Yüksekova'nın Eğitim Yıldız'ı</h1>
+            <div class="ratio ratio-16x9 mb-5">
+                <video controls>
+                    <source src="/haberler/video-yuksekovanin-egitim-yildizi/orhan-yildiz.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+            <p>
+                Hakkari'nin Yüksekova ilçesine 18 yıl önce gönüllü olarak gelen İngilizce öğretmeni Orhan Yıldız, büyük bir fedakarlık örneği sergiliyor.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
