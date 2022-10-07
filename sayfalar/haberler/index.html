@@ -4,6 +4,8 @@
 <head>
     <script>
         if (typeof mevcutSayfa === 'undefined') {
+            sessionStorage.setItem("tsmURL", window.location.pathname);
+            sessionStorage.setItem("tsmSekmeBasligi", document.title);
             window.location.href = "/";
         }
     </script>
@@ -11,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haberler</title>
+    
 </head>
 
 <body>

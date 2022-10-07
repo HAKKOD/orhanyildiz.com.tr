@@ -11,6 +11,8 @@
 <body>
     <script>
         if (typeof mevcutSayfa === 'undefined') {
+            sessionStorage.setItem("tsmURL", window.location.pathname);
+            sessionStorage.setItem("tsmSekmeBasligi", document.title);
             window.location.href = "/";
         }
     </script>
